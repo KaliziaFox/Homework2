@@ -4,10 +4,6 @@
 #include <string>
 
 int main(int argc, const char *argv[]) {
-    if (argc != 3) {
-        std::cerr << "Error: Use three parameters\n";
-        return 5;
-    }
     const std::string mode(argv[1]); // Режим работы
     const std::string file_name(argv[2]); // Имя файла
     unsigned int key;
